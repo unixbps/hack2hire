@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ViewFlipper
+            android:id="@+id/ViewFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+        <ImageView
+            android:src="@drawable/dbs_bank"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ImageView>
+
+            <ImageView
+                android:src="@drawable/cricket_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </ImageView>
+
+            <ImageView
+                android:src="@drawable/dbs_next"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </ImageView>
+
+        </ViewFlipper>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/criket"
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            android:text="My cricket leageue"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <Button
+            android:id="@+id/profile"
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimary"
+            android:background="#FFFFFF"
+            android:text=" User Profile"
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorPrimary"
+            android:background="#FFFFFF"
+            android:text=" Banking "
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+        <Button
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorPrimary"
+            android:text=" BHIM UPI "
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
